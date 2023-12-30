@@ -3,4 +3,5 @@
 env/
 .env
 kernel.json
-*.ipynb 
+*.ipynb
+*.pyc
