@@ -1,0 +1,6 @@
+.python-version
+.ipynb_checkpoints
+env/
+.env
+kernel.json
+*.ipynb 

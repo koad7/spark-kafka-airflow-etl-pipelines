@@ -1,0 +1,23 @@
+pyspark==3.5.0
+confluent-kafka
+requests
+json5
+
+
+# curl -O https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.5.0/kafka-clients-3.5.0.jar
+# curl -O https://repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.13/3.5.0/spark-sql-kafka-0-10_2.13-3.5.0.jar
+# curl -O https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.6/hadoop-aws-3.3.6.jar
+# curl -O https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.9.9/aws-java-sdk-s3-1.9.9.jar
+# curl -O https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.9.0/commons-pool2-2.9.0.jar
+
+
+
+# cd ..
+# spark-submit \
+# --master local[2] \
+# --jars /opt/bitnami/spark/jars/kafka-clients-3.5.0.jar,\
+# /opt/bitnami/spark/jars/spark-sql-kafka-0-10_2.13-3.5.0.jar,\
+# /opt/bitnami/spark/jars/hadoop-aws-3.3.6.jar,\
+# /opt/bitnami/spark/jars/aws-java-sdk-s3-1.9.9.jar,\
+# /opt/bitnami/spark/jars/commons-pool2-2.9.0.jar \
+# spark_processing.py
